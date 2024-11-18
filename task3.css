@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    bord
+}
+table,th,td{
+    border: 2px solid red;
+    border-collapse: collapse;
+    
+}
+table{
+    width: 100%;
+    font-size: 30px;
+   
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+
+    
+}
+th{
+    text-transform: capitalize;
+    background-color: rgb(245, 114, 114);
+    
+}
+tr:nth-child(odd){
+    background-color: aqua;
+    background-color: blanchedalmond;
+}
+tr:nth-child(even){
+    background-color: rgb(176, 198, 191);
+}
+tr:hover{
+    background-color: rgb(139, 139, 172);
+    color: beige;
+}
+.td1{
+    color: azure;
+    background-color: green;
+}
+
+.td2{
+    background-color: rgba(255, 208, 0, 0.913);
+    color: white ;
+}
+.td3{
+    background-color: red;
+    color: white
+}
